@@ -168,7 +168,7 @@ export default function Home() {
 
             <div className="grid grid-rows-3 gap-4 w-full h-screen">
               <ImageCard
-                src="/cinematic-hardeep.jpg"
+                src="/cinematic-hardeep.jpeg"
                 alt="Cinematic Scenary"
                 objectFit="cover"
                 layout ="fill"
