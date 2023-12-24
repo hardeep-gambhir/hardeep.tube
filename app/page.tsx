@@ -168,16 +168,18 @@ export default function Home() {
 
             <div className="grid grid-rows-3 gap-4 w-full h-screen">
               <ImageCard
-                src="/cinematic-hardeep.png"
+                src="https://github.com/hardeep-gambhir/hardeep.tube/blob/main/public/cinematic-hardeep.png?raw=true"
                 alt="Cinematic Scenary"
                 objectPosition="bottom"
                 caption="Running up the hill with strangers in May 2023"
               />
+
               <ImageCard
                 src="/yestheory1.jpeg"
                 alt="Mark & Naval"
                 caption="Organized an event with random strangers on a solo trip to SF"
               />
+
               <ImageCard
                 src="/my-loves.jpg"
                 alt="My loves"
@@ -231,7 +233,7 @@ const ImageCard: React.FC<{
   layout?: "fill" | "cover" | "contain" | "responsive" | "intrinsic" | undefined;
   objectFit?: "cover" | "contain" | "fill" | "none" | "scale-down" | undefined;
   objectPosition?: string | undefined;
-}> = ({ src, alt, caption }) => {
+}> = ({ src, alt, caption, objectFit, objectPosition="center" }) => {
   return (
     <div className="relative flex flex-col border-dark-divider h-full overflow-clip group hover:cursor-pointer">
       <Image
@@ -239,7 +241,7 @@ const ImageCard: React.FC<{
         alt={alt}
         layout="fill"
         objectFit="cover"
-        objectPosition="center"
+        objectPosition={objectPosition}
         className="w-full h-full object-cover transition-all duration-500 ease-in-out bg-dark-background-secondary"
       />
 
