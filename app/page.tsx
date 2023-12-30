@@ -178,7 +178,7 @@ export default function Home() {
               <ImageCard
                 src="/my-loves.jpg"
                 alt="My loves - Mount Tamalpais"
-                caption="My loves"
+                caption="My loves - Mount Tamalpais"
                 objectFit="cover"
                 layout ="fill"
                 objectPosition="bottom"
