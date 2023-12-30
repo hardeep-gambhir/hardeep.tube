@@ -90,12 +90,6 @@ export default function Home() {
             </p>
 
             <ul className="list-disc list-inside">
-              <li>
-                Founder of{" "}
-                <a href="https://www.livetheresidency.com" target="_blank">
-                  The Residency
-                </a>
-              </li>
 
               <li>
                 Developed Software for the Ministry of Education in Canada at {" "}
@@ -151,11 +145,7 @@ export default function Home() {
                 />
 
                 <div className="py-2 absolute bottom-0 bg-black text-dark-text-secondary text-sm w-full items-center">
-                  On the way to {" "}
-                  <a href="https://www.buildspace.so/campus" target="_blank">
-                    {" "}
-                    Buildspace Campus
-                  </a>
+                  On the way to Golden Gate Bridge
                 </div>
               </div>
 
