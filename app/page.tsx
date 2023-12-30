@@ -90,16 +90,21 @@ export default function Home() {
             </p>
 
             <ul className="list-disc list-inside">
+              <li>
+                Currently on a gap year! Social media detoxing largely and travelling the US, Canada and hopefully soon the world! 
+      
+              </li>
+
 
               <li>
-                Developed Software for the Ministry of Education in Canada at {" "}
+                Developed Software for the Ministry of Education in Canada at {" "} 
                 <a
                   href="https://www.uwo.ca/bmi/"
                   target="_blank"
                 >
-                  The Brain and Mind Institute
-                </a>{" "}
-        
+                   The Brain and Mind Institute 
+                </a>
+                {" "} in the summer of 2023
               </li>
 
               <li>
@@ -107,14 +112,14 @@ export default function Home() {
                   href="https://www.mercatus.org/emergent-ventures"
                   target="_blank"
                 >
-                  Emergent Ventures Fellow
+                  Emergent Ventures Fellow 
                 </a>
               </li>
 
               <li>
                 Host of {" "}
                 <a
-                  href="https://www.mercatus.org/emergent-ventures"
+                  href="https://linktr.ee/emerginginnovatorspodcast"
                   target="_blank"
                 >
                   Emerging Innovators Podcast
@@ -122,7 +127,7 @@ export default function Home() {
               </li>
 
               <li>
-                Beryl Ivey Full-Ride Scholar @{" "}
+                Beryl Ivey Full-Ride National Scholar @{" "}
                 <a href="https://www.uwo.ca/" target="_blank">
                   Western University
                 </a>{" "}
@@ -145,7 +150,7 @@ export default function Home() {
                 />
 
                 <div className="py-2 absolute bottom-0 bg-black text-dark-text-secondary text-sm w-full items-center">
-                  On the way to Golden Gate Bridge
+                  Golden Gate Bridge and me!
                 </div>
               </div>
 
@@ -161,18 +166,18 @@ export default function Home() {
                 src="https://github.com/hardeep-gambhir/hardeep.tube/blob/main/public/cinematic-hardeep.png?raw=true"
                 alt="Cinematic Scenary"
                 objectPosition="bottom"
-                caption="Running up the hill with strangers in May 2023"
+                caption="Running up the hill with strangers in South California"
               />
 
               <ImageCard
                 src="/yestheory1.jpeg"
                 alt="Mark & Naval"
-                caption="Organized an event with random strangers on a solo trip to SF"
+                caption="Organized an event with random strangers in Golden Gate Park SF"
               />
 
               <ImageCard
                 src="/my-loves.jpg"
-                alt="My loves"
+                alt="My loves - Mount Tamalpais"
                 caption="My loves"
                 objectFit="cover"
                 layout ="fill"
