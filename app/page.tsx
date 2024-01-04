@@ -85,26 +85,43 @@ export default function Home() {
               Hardeep Gambhir
             </h1>
             <p>
-              Hey there, I&apos;m Hardeep Gambhir, a 21-year-old community-builder, software engineer, product-designer, artist, 
-              videographer, cinematographer, writer, nespresso addict, human.
+              Yo! I&apos;m Hardeep, a 20-year-old community-builder, software engineer, product-designer, artist, 
+              videographer, cinematographer, writer, human. 
             </p>
+
+            <p>
+                To know me beyond my accomplishments and titles, read {" "}
+                <a href="https://hardeeps-iphone-notes.super.site/" target="_blank">
+                notes from my iPhone
+                </a>
+              </p>
 
             <ul className="list-disc list-inside">
               <li>
-                Currently on a gap year! Social media detoxing largely and travelling the US, Canada and hopefully soon the world! 
-      
+                Co-Founder of {" "}
+                <a
+                  href="https://livetheresidency.com"
+                  target="_blank" 
+                  >
+                    The Residency
+                  </a>
+
               </li>
 
 
               <li>
-                Developed Software for the Ministry of Education in Canada at {" "} 
+                Developed software for the Ontario Ministry of Education at 19
+                
+              </li>
+
+              <li>
+                Builder at {" "}
                 <a
-                  href="https://www.uwo.ca/bmi/"
+                  href="https://www.mercatus.org/emergent-ventures"
                   target="_blank"
                 >
-                   The Brain and Mind Institute 
+                  Buildspace sf2 
                 </a>
-                {" "} in the summer of 2023
               </li>
 
               <li>
@@ -133,8 +150,11 @@ export default function Home() {
                 </a>{" "}
                 in Canada
               </li>
+              
+            
             </ul>
           </div>
+          
 
           <div className="grid grid-cols-2 gap-4 w-full h-screen">
             <div className="grid grid-rows-2 gap-4 w-full h-screen">
@@ -191,7 +211,7 @@ export default function Home() {
         {/* contact section */}
         <div className="flex flex-col items-start gap-12">
           <h1 className="text-4xl font-medium text-center font-serif underline underline-offset-8 decoration-dark-dividerContrast">
-            Contact
+            Socials
           </h1>
 
           {/* grid contact */}
