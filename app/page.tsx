@@ -117,7 +117,7 @@ export default function Home() {
               <li>
                 Builder at {" "}
                 <a
-                  href="https://www.mercatus.org/emergent-ventures"
+                  href="https://buildspace.so/sf2"
                   target="_blank"
                 >
                   Buildspace sf2 
