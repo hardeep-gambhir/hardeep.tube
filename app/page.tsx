@@ -145,7 +145,7 @@ export default function Home() {
 
               <li>
                 Beryl Ivey Full-Ride National Scholar @{" "}
-                <a href="https://www.uwo.ca/" target="_blank">
+                <a href="https://www.president.uwo.ca/honour_roll/students/national_recipients.html" target="_blank">
                   Western University
                 </a>{" "}
                 in Canada
