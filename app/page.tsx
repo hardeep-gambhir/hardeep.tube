@@ -44,7 +44,7 @@ export default function Home() {
     React.useState(false);
 
   return (
-    <main className="flex flex-col min-h-screen max-w-screen items-center bg-black">
+    <main className="flex flex-col min-h-screen max-w-screen items-center bg-black text-dark-text-primary">
       {/* sticky header */}
       <div className="flex sticky top-0 z-50 items-center justify-between w-full p-3 border-b border-dark-divider bg-[rgb(13,13,13,0.8)] backdrop-blur-xl">
         <div className="flex flex-row items-center gap-3">
