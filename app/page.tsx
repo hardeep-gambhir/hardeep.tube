@@ -98,7 +98,7 @@ export default function Home() {
 
             <ul className="list-disc list-inside">
               <li>
-                Co-Founder of {" "}
+                Currently on a gap year in the Bay Area, California living at {" "}
                 <a
                   href="https://livetheresidency.com"
                   target="_blank" 
@@ -266,6 +266,7 @@ const ImageCard: React.FC<{
     </div>
   );
 };
+
 
 const LinkCapsule: React.FC<{
   href: string;
