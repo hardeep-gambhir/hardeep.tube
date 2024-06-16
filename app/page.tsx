@@ -17,7 +17,7 @@ import clsx from "clsx";
 
 const socials = [
   {
-    icon: <FaXTwitter cclassName="w-[18px] h-[18px]" />,
+    icon: <FaXTwitter className="w-[18px] h-[18px]" />,
     name: "Twitter",
     url: "https://twitter.com/hardeep_gambhir",
   },
@@ -98,7 +98,7 @@ export default function Home() {
 
             <ul className="list-disc list-inside">
               <li>
-                Currently on a gap year in the Bay Area, California living at {" "}
+                Founder of {" "}
                 <a
                   href="https://livetheresidency.com"
                   target="_blank" 
