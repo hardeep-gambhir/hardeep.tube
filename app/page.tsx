@@ -97,16 +97,6 @@ export default function Home() {
               </p>
 
             <ul className="list-disc list-inside">
-              <li>
-                Founder of {" "}
-                <a
-                  href="https://livetheresidency.com"
-                  target="_blank" 
-                  >
-                    The Residency
-                  </a>
-
-              </li>
 
 
               <li>
